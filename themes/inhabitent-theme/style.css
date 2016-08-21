@@ -560,13 +560,21 @@ a {
 .widget_search .search-submit {
   display: none; }
 
+.widget-title {
+  font-family: 'novecento', sans-serif;
+  font-size: 30px; }
+
 .widget-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
   border-left: 0.5px solid #a1a1a1;
-  padding-left: 20px; }
+  padding-left: 20px;
+  width: 350px;
+  padding: 40px;
+  padding-left: 60px;
+  font-family: 'merriweather', sans-serif; }
 
 .widget_archive ul {
   list-style: none;
@@ -685,7 +693,7 @@ object {
       flex: 1 0 100%;
   background-image: url("../../images//dark-wood@2x.png");
   font-family: 'merriweather', sans-serif;
-  margin-top: 60px; }
+  padding-top: 10px; }
 
 .footer-container {
   width: 80%; }
@@ -895,3 +903,15 @@ object {
     padding: 10px;
     text-decoration: none;
     background-color: #248A83; }
+
+.site-main .page .entry-content {
+  width: 900px;
+  padding: 25px; }
+  .site-main .page .entry-content p {
+    margin: 0; }
+
+.page .entry-header h1 {
+  font-size: 40px; }
+
+.product .entry-header img {
+  width: 200px; }

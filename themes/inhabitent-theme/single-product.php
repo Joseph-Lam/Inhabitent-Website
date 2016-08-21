@@ -23,11 +23,6 @@ get_header(); ?>
 
 				<?php echo CFS()->get( 'product_price' ); ?>
 
-				<div class="entry-content">
-					<?php the_content(); ?>
-
-				</div><!-- .entry-content -->
-
 
 			<?php endwhile; // End of the loop. ?>
 

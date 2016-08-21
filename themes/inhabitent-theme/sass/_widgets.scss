@@ -16,11 +16,21 @@
 }
 
 //sidebar
+
+.widget-title {
+	font-family: 'novecento', sans-serif;
+	font-size: 30px;
+}
+
 .widget-container {
 	display: flex;
 	flex-direction: column;
 	border-left: 0.5px solid $color_light_grey;
     padding-left: 20px;
+    width: 350px;
+    padding: 40px;
+    padding-left: 60px;
+	font-family: 'merriweather', sans-serif;
 }
 
 .widget_archive {
