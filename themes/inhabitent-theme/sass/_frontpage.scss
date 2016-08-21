@@ -1,0 +1,106 @@
+.hero-image {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../images/home-hero.jpg) no-repeat top;
+	background-size: cover;
+    height: 120vh;
+}
+
+.home .hfeed .site-content {
+	display: block;
+}	
+
+.front-titles {
+	text-align: center;
+	font-family: 'novecento', sans-serif;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+
+
+//shop stuff section
+.shop-container {
+	display: flex;
+	justify-content: center;
+}
+
+.shop-content {
+	img {
+		width: 70px;
+	}
+	text-align: center;
+	width: 250px;
+	margin: 20px;
+	border: 1px solid $color_solid_border;
+	border-top: 5px solid $color_solid_border;
+	padding: 10px 5px;
+	&:hover {
+		border: 1px solid $color_orange_brand;
+		border-top: 5px solid $color_orange_brand;
+	}	
+}
+
+.shop-button {
+	a {
+		color: white;
+		text-decoration: none;
+		padding: 10px;
+		background-color: $color_green_brand;
+		&:hover {
+		background-color: $color_green_hover;
+		}
+	}
+}
+
+//Inhabitent journal section
+
+.front-journal-container {
+	display: flex;
+	justify-content: center;
+}
+
+.front-journal-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	
+	.front-journal-image {
+		width: 370px;
+		height: 250px;
+		img {
+			height: 250px;
+		}
+	}
+	h3 {
+		margin: 0;
+		width: 300px;
+		a {
+			text-decoration: none;
+			color: $color_green_brand;
+			font-family: 'novecento', sans-serif;
+			font-size: 20px;
+		}
+
+
+	}
+}
+
+.front-journal-text {
+	width: 370px;
+	border: 1px solid $color_solid_border;
+	border-top: 5px solid $color_solid_border;
+	padding: 10px;
+	height: 150px;
+	.front-journal-date {
+		font-size: 12px;
+		font-family: 'merriweather';
+	}
+	.read-entry {
+		padding: 10px;
+		text-decoration: none;
+		background-color: $color_green_brand;
+	}
+
+}

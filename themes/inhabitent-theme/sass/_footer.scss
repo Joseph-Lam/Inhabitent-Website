@@ -1,0 +1,71 @@
+.site-footer {
+	display: flex;
+	flex: 1 0 100%;
+	background-image: url('../../images//dark-wood@2x.png');
+	font-family: 'merriweather', sans-serif;
+	margin-top: 60px;
+}
+.footer-container {
+	width: 80%;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 20%;
+	margin-left: 300px;
+	line-height: 0px;
+	h3 {
+		font-family: 'novecento', sans-serif;
+		color: $color_orange_brand;
+		text-transform: uppercase;
+	}
+	p {
+		i {
+			color: white;
+		}
+
+		a {
+			color: white;
+		}
+	}
+}
+
+.business-hours {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 20%;
+	line-height: 0px;
+	h3 {
+		font-family: 'novecento', sans-serif;
+		color: $color_orange_brand;
+		text-transform: uppercase;
+	}
+	p {
+		color: white;
+	}
+	.bold-hours {
+		font-weight: bold;
+	}
+}
+
+.footer-logo {
+	width: 300px;
+	margin-left: 250px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin-left: 300px;
+	font-family: 'novecento', sans-serif;
+	color: white;
+	text-transform: uppercase;
+
+}

@@ -4,7 +4,6 @@
 
 .widget {
 	margin: 0 0 $base__space-unit;
-
 	/* Make sure select elements fit in widgets. */
 	select {
 		max-width: 100%;
@@ -14,4 +13,24 @@
 /* Search widget. */
 .widget_search .search-submit {
 	display: none;
+}
+
+//sidebar
+.widget-container {
+	display: flex;
+	flex-direction: column;
+	border-left: 0.5px solid $color_light_grey;
+    padding-left: 20px;
+}
+
+.widget_archive {
+	ul {
+		list-style: none;
+    	margin-left: 0;
+    	padding: 0;
+	}
+}
+
+.day-of-week {
+	font-weight: bold;
 }

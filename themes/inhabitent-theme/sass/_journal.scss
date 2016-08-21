@@ -1,0 +1,73 @@
+
+//journal page
+.journal-main {
+    display: flex;
+    flex-direction: column;
+	font-family: 'merriweatherlight', sans-serif;
+    width: 600px;
+    padding: 25px;
+}
+
+.site-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}	
+
+.widget-area {
+	display: flex;
+    flex-direction: column;
+}
+
+
+// blog pictures
+.entry-header {
+	font-family: 'Novecento', sans-serif;
+	position: relative;
+}
+
+.entry-title {
+	background-color: $color_green_brand;
+	position: absolute;
+	top: 0;
+	color: white;
+	max-width: 450px;
+	padding: 10px;
+	a {
+		background-color: $color_green_brand;
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: white;
+		width: 450px;
+		font-size: 33px;
+		padding: 10px;
+		&:hover	{	
+			color: $color_yellow_brand;
+		}
+	}
+}
+
+.entry-meta {
+	position: absolute;
+	bottom: 7px;
+	right: 0;
+	padding: 0 10px;
+	font-family: 'Novecento', sans-serif;
+	color: white;
+	background-color: $color_green_brand;
+
+	.updated {
+		display: none;
+	}
+}
+
+.comments-link {
+	a {
+	color: white;
+	text-decoration: none;	
+	&:hover {
+		color: $color_yellow_brand;
+		}
+	}
+}
