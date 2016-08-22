@@ -1,0 +1,26 @@
+.about-header {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	font-size: 45px;
+	align-items: center;
+	color: white;
+	height: 100vh;
+}
+
+.about-content {
+	margin: 0 550px;
+	h2 {
+		text-align: center;
+		font-size: 40px;
+	}
+}
+
+.about-text {
+	font-family: 'merriweather', sans-serif;
+	line-height: 1.75;
+	h2 {
+		text-transform: uppercase;
+		font-family: 'novecento', sans-serif;
+	}
+}

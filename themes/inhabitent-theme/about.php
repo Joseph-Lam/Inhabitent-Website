@@ -10,15 +10,16 @@ get_header(); ?>
 
 <article>
 
-	<div class="test">
-		<h1>
+	<div class="about-hero">
+		<h1 class="about-header">about</h1>
 	</div>
-		
-	<div class="entry-content">
+	
+	<div class="about-content">
 		<?php the_content(); ?>
-		
-		<?php echo CFS()->get( 'our_story' ); ?>
-		<?php echo CFS()->get( 'our_team' ); ?>
+		<div class="about-text">
+			<?php echo CFS()->get( 'our_story' ); ?>
+			<?php echo CFS()->get( 'our_team' ); ?>
+		</div>
 	</div><!-- .entry-content -->
 
 

@@ -88,7 +88,7 @@ function inhabitent_inline_styles_method() {
 
 
         $custom_css = "
-                .test{
+                .about-hero{
                		background: -webkit-linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(//localhost:3000/inhabitent/wp-content/uploads/2016/08/about-hero-compressor.jpg) no-repeat bottom;
                    	height: 100vh;
     				background-size: cover;
