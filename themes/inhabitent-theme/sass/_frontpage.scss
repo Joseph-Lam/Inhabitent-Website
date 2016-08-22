@@ -3,7 +3,7 @@
 	justify-content: center;
 	background: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(../../images/home-hero.jpg) no-repeat top;
 	background-size: cover;
-    height: 120vh;
+	height: 120vh;
 }
 
 .home .hfeed .site-content {
@@ -12,11 +12,11 @@
 
 .front-titles {
 	text-align: center;
+	text-transform: uppercase;
 	font-family: 'novecento', sans-serif;
 	font-size: 3rem;
 	font-weight: 500;
 }
-
 
 
 //shop stuff section
@@ -44,11 +44,13 @@
 .shop-button {
 	a {
 		color: white;
+		text-transform: uppercase;
 		text-decoration: none;
-		padding: 10px;
+		font-family: 'novecento', sans-serif;
+		padding: 10px 30px;
 		background-color: $color_green_brand;
 		&:hover {
-		background-color: $color_green_hover;
+			background-color: $color_green_hover;
 		}
 	}
 }
@@ -75,12 +77,12 @@
 	}
 	h3 {
 		margin: 0;
-		width: 300px;
+		line-height: 1;
 		a {
 			text-decoration: none;
 			color: $color_green_brand;
 			font-family: 'novecento', sans-serif;
-			font-size: 20px;
+			font-size: 26px;
 		}
 
 
@@ -88,19 +90,145 @@
 }
 
 .front-journal-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 370px;
 	border: 1px solid $color_solid_border;
 	border-top: 5px solid $color_solid_border;
 	padding: 10px;
+	padding-bottom: 18px;
 	height: 150px;
+	margin-bottom: 20px;
+
 	.front-journal-date {
 		font-size: 12px;
 		font-family: 'merriweather';
-	}
-	.read-entry {
-		padding: 10px;
-		text-decoration: none;
-		background-color: $color_green_brand;
+		h3 a {
+			&:hover {
+				color: black;	
+			}
+		}
 	}
 
+	.read-entry {
+		padding: 10px 30px;
+		text-decoration: none;
+		border: 1px solid black;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: black;
+		font-family: 'novecento', sans-serif;
+		&:hover {
+			background-color: $color_green_brand;
+			color: white;
+		}
+	}
+}
+
+//adventures section
+.adventures-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+//styling for each box
+.adventures-header {
+	font-family: 'merriweather', sans-serif;
+	font-size: 3rem;
+	color: white;
+	font-weight: 500;
+	margin: 0;
+	padding-bottom: 30px;
+}
+
+.adventures-text {
+	display: flex;
+	flex-direction: column;
+}
+
+//styling for left side
+.adventures-left {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-image: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)), url(../../images/adventure-photos/canoe-girl.jpg);
+	background-size: cover;
+	height: 600px;
+	width: 600px;
+	margin-right: 20px;	
+}
+
+.front-adventures-button {
+	.read-more {
+		padding: 10px 30px;
+		text-decoration: none;
+		border: 1px solid white;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: white;
+		font-family: 'novecento', sans-serif;
+		&:hover {
+			background-color: $color_green_brand;
+			color: white;
+		}
+	}
+}
+
+//styling for right side
+.adventures-right {
+	width: 600px;
+}
+
+.adventures-right-top {
+	display: flex;
+	background-image: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)), url(../../images/adventure-photos/beach-bonfire.jpg);
+	background-size: cover;
+	height: 300px;
+	width: 600px;
+	padding: 20px;
+}
+
+.adventures-right-bottom {
+	display: flex;
+
+	.adventures-right-bottom-1 {
+		display: flex;
+		flex-direction: column;
+		background-image: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)), url(../../images/adventure-photos/mountain-hikers.jpg);
+		background-size: cover;
+		height: 280px;
+		width: 309px;
+		margin: 20px;
+		margin-left: 0;
+
+		.adventures-header {
+			font-size: 30px;
+			padding: 20px;
+		}
+		.front-adventures-button {
+			a {
+				margin-left: 20px;
+			}
+		}
+	}
+
+	.adventures-right-bottom-2 {
+		display: flex;
+		flex-direction: column;
+		background-image: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)), url(../../images/adventure-photos/night-sky.jpg);
+		background-size: cover;
+		height: 280px;
+		width: 309px;
+		margin-top: 20px;
+		.adventures-header {
+			font-size: 30px;
+			padding: 20px;
+		}
+		.front-adventures-button {
+			a {
+				margin-left: 20px;
+			}
+		}
+	}
 }

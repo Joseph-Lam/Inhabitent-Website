@@ -133,6 +133,7 @@ a {
 // }
 
 
+
 .site-header {
 	display: flex;
 	justify-content: space-between;
@@ -141,10 +142,29 @@ a {
 }
 
 .site-branding {
-	// background-image: url('../../images/logos/inhabitent-logo-tent.svg');
 	width: 50px;
 	height: 30px;
+		a img {
+			height: 50px;
+		}
 	}
+
+.menu-main-navigation-container {
+	display: flex;
+	.menu {
+		height: 50px;
+		margin: 0;
+		li {
+			display: flex;
+			align-items: center;
+			a {
+				font-size: 16px;
+				font-family: 'novecento', sans-serif;
+				color: $color_green_brand;
+			}
+		}
+	}
+}
 
 
 .main-navigation {
