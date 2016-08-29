@@ -13,25 +13,43 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<header class="entry-header">
-					<?php if ( has_post_thumbnail() ) : ?>
-						<?php the_post_thumbnail( 'large' ); ?>
-					<?php endif; ?>
+				<div class="single-product-content">
+					<div class="single-product-image">
+						<?php if ( has_post_thumbnail() ) : ?>
+							<?php the_post_thumbnail( 'large' ); ?>
+						<?php endif; ?>
+					</div>
+					<div class="product-information-container">
+						<div class="single-product-title">
+							<?php the_title( '<h1>', '</h1>' ); ?>
+						</div>
+						<div class="single-product-price">
+							<?php echo CFS()->get( 'product_price' ); ?> 
+						</div>
+						<div class="single-product-description">
+							<?php the_content(); ?>
+						</div>
+						<div class="single-product-media">
+							<button>
+							<i class="fa fa-facebook" aria-hidden="true"></i>like
+							</button>
+							<button>
+							<i class="fa fa-twitter" aria-hidden="true"></i>tweet
+							</button>
+							<button>
+							<i class="fa fa-pinterest" aria-hidden="true"></i>pin
+							</button>
 
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-				</header><!-- .entry-header -->
+						</div>
 
-				<?php echo CFS()->get( 'product_price' ); ?>
+					</div>
+				</div>
 
-				<div class="entry-content">
-					<?php the_content(); ?>
-
-				</div><!-- .entry-content -->
-
+				
 
 			<?php endwhile; // End of the loop. ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+	<?php get_footer(); ?>

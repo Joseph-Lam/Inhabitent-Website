@@ -24,7 +24,6 @@ get_header(); ?>
 			$shop_category = get_terms( $category_arr );?>
 
 			<?php 
-
 			foreach ( $shop_category as $term ): ?> 
 			<div class="shop-content">
 				<img src=" <?php echo get_template_directory_uri() . '/images/product-type-icons/' . $term->slug . '.svg';?>" alt="" />

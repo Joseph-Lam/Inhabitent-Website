@@ -385,36 +385,16 @@ table {
 # Forms
 --------------------------------------------------------------*/
 /* Buttons */
-button,
-input[type="button"],
-input[type="reset"],
 input[type="submit"] {
-  border: 1px solid;
-  border-color: #ccc #ccc #bbb;
-  border-radius: 3px;
-  background: #e6e6e6;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 12px;
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
-  button:hover,
-  input[type="button"]:hover,
-  input[type="reset"]:hover,
+  background-color: #248A83;
+  font-family: 'novecento', sans-serif;
+  font-size: 18px;
+  padding: 10px 30px;
+  color: white;
+  border: none;
+  text-transform: uppercase; }
   input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
-  button:active, button:focus,
-  input[type="button"]:active,
-  input[type="button"]:focus,
-  input[type="reset"]:active,
-  input[type="reset"]:focus,
-  input[type="submit"]:active,
-  input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+    background-color: #19625d; }
 
 /* Fields */
 input[type="text"],
@@ -439,11 +419,30 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-  padding: 3px; }
+  padding: 0.3rem; }
 
 textarea {
   padding-left: 3px;
   width: 100%; }
+
+.wpcf7-form {
+  text-transform: uppercase;
+  line-height: 2; }
+
+.required {
+  color: #d99054; }
+
+.wpcf7-text {
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+  margin-top: 10px; }
+
+.wpcf7-textarea {
+  background-color: #f4f4f4;
+  border: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+  margin-top: 10px; }
 
 /*--------------------------------------------------------------
 # Navigation
@@ -582,6 +581,15 @@ a {
   font-family: 'novecento', sans-serif;
   font-size: 30px; }
 
+.textwidget p i {
+  font-size: 20px;
+  width: 20px;
+  margin: 5px; }
+
+.textwidget p a {
+  text-decoration: none;
+  color: #248A83; }
+
 .widget-container {
   display: -ms-flexbox;
   display: flex;
@@ -598,6 +606,9 @@ a {
   list-style: none;
   margin-left: 0;
   padding: 0; }
+  .widget_archive ul li a {
+    text-decoration: none;
+    color: #248A83; }
 
 .day-of-week {
   font-weight: bold; }
@@ -721,7 +732,8 @@ object {
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-left: 40px; }
 
 .contact-info {
   display: -ms-flexbox;
@@ -736,10 +748,12 @@ object {
     font-family: 'novecento', sans-serif;
     color: #d99054;
     text-transform: uppercase; }
-  .contact-info p i {
-    color: white; }
-  .contact-info p a {
-    color: white; }
+  .contact-info p {
+    margin-top: 9px; }
+    .contact-info p i {
+      color: white; }
+    .contact-info p a {
+      color: white; }
 
 .business-hours {
   display: -ms-flexbox;
@@ -1036,12 +1050,16 @@ object {
 
 .site-main .page .entry-content {
   width: 900px;
-  padding: 25px; }
+  font-family: 'merriweather', sans-serif; }
   .site-main .page .entry-content p {
     margin: 0; }
 
 .page .entry-header h1 {
-  font-size: 40px; }
+  font-size: 40px;
+  text-transform: uppercase; }
+
+.entry-content h2 {
+  font-family: 'novecento', sans-serif; }
 
 .product .shop-grid-item {
   display: -ms-flexbox;
@@ -1070,9 +1088,10 @@ object {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 1000px;
+  width: 1250px;
   padding: 100px 0;
-  border-top: 1px dashed #c8c8c8; }
+  border-top: 1px dashed #c8c8c8;
+  font-family: 'merriweather', sans-serif; }
   .shop-archive-product .product {
     display: -ms-flexbox;
     display: flex;
@@ -1080,7 +1099,8 @@ object {
         flex: 1 0 25%; }
 
 .shop-grid-item {
-  margin: 0 10px; }
+  margin: 0 10px;
+  line-height: 0.7; }
   .shop-grid-item .shop-product-header {
     border: 1px solid #e1e1e1;
     border-top: 5px solid #e1e1e1;
@@ -1091,6 +1111,36 @@ object {
       font-family: 'merriweather', sans-serif;
       font-size: 16px;
       color: black; }
+
+.shop-grid-text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border: 1px solid #e1e1e1;
+  border-top: 5px solid #e1e1e1;
+  padding: 25px;
+  z-index: 99;
+  position: relative; }
+  .shop-grid-text:before {
+    content: '';
+    width: 190px;
+    border-bottom: 2px dotted black;
+    position: absolute;
+    z-index: 0;
+    right: 48px;
+    top: 34px; }
+
+.shop-grid-name {
+  z-index: 99;
+  background-color: white;
+  padding-right: 4px; }
+
+.shop-grid-price {
+  z-index: 99;
+  background-color: white;
+  padding: 0 10px;
+  padding-left: 4px; }
 
 .category-header p {
   text-align: center; }
@@ -1121,7 +1171,8 @@ object {
   -ms-flex-align: center;
       align-items: center;
   color: white;
-  height: 100vh; }
+  height: 100vh;
+  margin: 0; }
 
 .about-content {
   margin: 0 550px; }
@@ -1138,3 +1189,54 @@ object {
 
 .search-area {
   width: 600px; }
+
+.search-form fieldset {
+  border: none; }
+
+.single-product-title {
+  color: #d99054;
+  font-size: 25px; }
+
+.single-product-content {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 40px 300px;
+  margin-bottom: 85px; }
+
+.single-product-image {
+  -ms-flex: 1 0 50%;
+      flex: 1 0 50%; }
+
+.product-information-container {
+  -ms-flex: 1 0 50%;
+      flex: 1 0 50%;
+  margin: 0 30px;
+  padding: 0; }
+  .product-information-container .single-product-title h1 {
+    margin: 0; }
+
+.single-product-price {
+  font-family: 'novecento', sans-serif;
+  font-size: 30px; }
+
+.single-product-description {
+  font-size: 18px;
+  font-family: 'merriweather', sans-serif; }
+  .single-product-description p span {
+    line-height: 1.6; }
+
+.single-product-media button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-family: 'novecento', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase; }
+  .single-product-media button i {
+    font-size: 20px; }
+    .single-product-media button i:before {
+      margin-right: 7px; }
+  .single-product-media button:hover {
+    background-color: #248A83;
+    border: #248A83;
+    color: white; }

@@ -1,6 +1,7 @@
 .site-main .page .entry-content {
 	width: 900px;
-    padding: 25px;
+    font-family: 'merriweather', sans-serif;
+    
     p {
     	margin: 0;
     }
@@ -8,6 +9,11 @@
 
 .page .entry-header h1 {
 	font-size: 40px;
+	text-transform: uppercase;
 }
 
-
+.entry-content {
+	h2 {
+		font-family: 'novecento', sans-serif;
+	}
+}

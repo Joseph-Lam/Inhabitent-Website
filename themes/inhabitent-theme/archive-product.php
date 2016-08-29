@@ -31,16 +31,22 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
+			
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<header class="shop-grid-item">
+
+						<a href="<?php echo get_permalink(); ?> ">
 						<?php if ( has_post_thumbnail() ) : ?>
 							<?php the_post_thumbnail( 'large' ); ?>
 						<?php endif; ?>
-
-						<?php the_title( sprintf( '<h2 class="shop-product-header"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
+						</a>
+						<div class="shop-grid-text">						
+						<div class="shop-grid-name"><?php the_title() ?> </div>
+						<div class="shop-grid-price"><?php echo CFS()->get('product_price') ?>
+						</div>
+						</div>
 					</header><!-- .entry-header -->
 
 				</article><!-- #post-## -->

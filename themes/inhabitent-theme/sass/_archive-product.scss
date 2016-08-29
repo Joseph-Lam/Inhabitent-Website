@@ -24,9 +24,10 @@
 .shop-archive-product {
 	display: flex;
 	flex-wrap: wrap;
-	width: 1000px;
+	width: 1250px;
 	padding: 100px 0;
     border-top: 1px dashed $color_dashed_border;
+    font-family: 'merriweather', sans-serif;
 	.product {
 		display: flex;
 		flex: 1 0 25%;
@@ -35,6 +36,7 @@
 
 .shop-grid-item {
 	margin: 0 10px;
+	line-height: 0.7;
 	.shop-product-header {
 		border: 1px solid $color_solid_border;
 		border-top: 5px solid $color_solid_border;
@@ -46,9 +48,42 @@
     		font-size: 16px;
     		color: black;
     	}
-		}
-
+	}
 }
+
+.shop-grid-text {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid $color_solid_border;
+	border-top: 5px solid $color_solid_border;
+	padding: 25px;
+	z-index: 99;
+	position: relative;
+
+	&:before {
+		content:'';
+		width: 190px;
+		border-bottom: 2px dotted black;
+		position: absolute;
+		z-index: 0;
+		right: 48px;
+		top: 34px;
+	}
+}
+
+.shop-grid-name {
+	z-index: 99;
+	background-color: white;
+	padding-right: 4px;
+}
+
+.shop-grid-price {
+	z-index: 99;
+	background-color: white;
+	padding: 0 10px;
+	padding-left: 4px;
+}
+
 
 //styling for category page
 .category-header {
