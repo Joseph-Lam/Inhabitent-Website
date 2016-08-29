@@ -491,6 +491,9 @@ a {
         font-family: 'novecento', sans-serif;
         color: #248A83; }
 
+.search-field {
+  display: none; }
+
 .main-navigation {
   display: -ms-flexbox;
   display: flex; }
@@ -1192,6 +1195,9 @@ object {
 
 .search-form fieldset {
   border: none; }
+
+.search-field {
+  display: none; }
 
 .single-product-title {
   color: #d99054;

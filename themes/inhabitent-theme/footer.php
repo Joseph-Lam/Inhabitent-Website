@@ -48,6 +48,5 @@
 
 <?php wp_footer(); ?>
 
-<script src="https://use.fontawesome.com/d51ac7c865.js"></script>
 </body>
 </html>
