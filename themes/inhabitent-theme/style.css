@@ -1240,3 +1240,49 @@ object {
     background-color: #248A83;
     border: #248A83;
     color: white; }
+
+.error-header {
+  font-family: 'novecento', sans-serif;
+  font-size: 23px; }
+  .error-header .page-title {
+    margin-bottom: 0; }
+
+.search-form fieldset {
+  padding: 0; }
+
+.error-search-field {
+  font-family: 'merriweather', sans-serif;
+  background-color: #f4f4f4; }
+
+.error-main {
+  display: -ms-flexbox;
+  display: flex; }
+
+.error-404 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 750px;
+  margin-right: 50px;
+  font-family: 'merriweather', sans-serif; }
+
+.widgettitle {
+  font-family: 'novecento', sans-serif;
+  font-size: 2rem; }
+
+.widget-title {
+  font-size: 2rem; }
+
+.widget ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+  .widget ul li a {
+    text-decoration: none;
+    color: #248A83; }
+    .widget ul li a:hover {
+      color: black; }
+
+.widget_archive select {
+  font-family: 'merriweather', sans-serif; }
