@@ -8,7 +8,7 @@
 			</span>
 		</button>
 
-			<input type="search" class="search-field" placeholder="SEARCH ..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" />
+			<input type="search" class="search-field" placeholder="Type and hit Enter..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" />
 
 			<span class="screen-reader-text"><?php echo esc_html( 'Search' ); ?></span>
 		</label>

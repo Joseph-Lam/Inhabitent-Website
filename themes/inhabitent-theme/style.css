@@ -495,12 +495,23 @@ a {
       -ms-flex-align: center;
           align-items: center; }
       .menu-main-navigation-container .menu li a {
-        font-size: 16px;
+        font-size: 20px;
         font-family: 'novecento', sans-serif;
         color: #248A83; }
 
-.search-field {
-  display: none; }
+.search-form .search-field {
+  display: none;
+  text-transform: uppercase;
+  outline: none;
+  border: none; }
+
+.search-submit {
+  margin-top: 10px;
+  border: none;
+  background-color: white; }
+
+.icon-search {
+  color: #248A83; }
 
 .main-navigation {
   display: -ms-flexbox;
