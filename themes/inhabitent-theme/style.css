@@ -1261,6 +1261,26 @@ object {
 .search-summary {
   line-height: 2; }
 
+.search-pagination {
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  border-top: 1px solid #e1e1e1; }
+  .search-pagination .page-numbers {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #248A83;
+    padding: 7px 10px; }
+    .search-pagination .page-numbers:hover {
+      background-color: #404040; }
+
+.search-pagination .current {
+  background-color: gray; }
+  .search-pagination .current:hover {
+    background-color: gray; }
+
 .single-product-title {
   color: #d99054;
   font-size: 25px; }

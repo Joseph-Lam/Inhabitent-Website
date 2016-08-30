@@ -61,3 +61,28 @@
 .search-summary {
 	line-height: 2;
 }
+
+.search-pagination {
+	font-family: 'novecento', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	padding-top: 40px;
+	border-top: 1px solid $color_solid_border;
+	.page-numbers {
+		font-size: 20px;
+		text-decoration: none;
+		color: white;
+		background-color: $color_green_brand;
+		padding: 7px 10px;
+		&:hover {
+			background-color: $color__text-main;
+		}
+	}	
+}
+
+.search-pagination .current {
+	background-color: gray;
+	&:hover {
+		background-color: gray;
+	}
+}
