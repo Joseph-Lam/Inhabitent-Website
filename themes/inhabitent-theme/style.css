@@ -813,7 +813,7 @@ object {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  font-family: 'merriweatherlight', sans-serif;
+  font-family: 'merriweather', sans-serif;
   width: 840px;
   padding: 25px; }
 
@@ -861,7 +861,7 @@ object {
   bottom: 7px;
   right: 0;
   padding: 0 10px;
-  font-family: 'Novecento', sans-serif;
+  font-family: 'novecento', sans-serif;
   color: white;
   background-color: #248A83; }
   .entry-meta .updated {
@@ -872,6 +872,34 @@ object {
   text-decoration: none; }
   .comments-link a:hover {
     color: #f0e4d1; }
+
+.entry-footer {
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase; }
+  .entry-footer .cat-links {
+    padding-right: 20px; }
+    .entry-footer .cat-links a {
+      text-decoration: none;
+      color: #248A83; }
+  .entry-footer .tags-links a {
+    text-decoration: none;
+    color: #248A83; }
+
+.single-journal-media button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  font-family: 'novecento', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase; }
+  .single-journal-media button i {
+    font-size: 20px; }
+    .single-journal-media button i:before {
+      margin-right: 7px; }
+  .single-journal-media button:hover {
+    background-color: #248A83;
+    border: #248A83;
+    color: white; }
 
 .hero-image {
   display: -ms-flexbox;

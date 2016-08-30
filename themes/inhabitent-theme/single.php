@@ -14,8 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<?php the_post_navigation(); ?>
-			<div class="single-product-media">
+			<div class="single-journal-media">
 				<button>
 					<i class="fa fa-facebook" aria-hidden="true"></i>like
 				</button>
