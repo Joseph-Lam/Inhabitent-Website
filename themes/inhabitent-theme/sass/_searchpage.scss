@@ -1,5 +1,7 @@
 .search-area {
-	width: 600px;
+	width: 740px;
+	margin-right: 100px;
+	font-family: 'merriweather', sans-serif;
 }
 
 //searchbar
@@ -12,4 +14,45 @@
 
 .search-field {
 	display: none;
+}
+
+.search-title {
+	font-size: 50px;
+	font-family: 'novecento', sans-serif;
+	margin-bottom: 0;
+	a {
+		font-size: 40px;
+		text-decoration: none;
+		color: $color_green_brand;
+	}
+}
+
+.search-comments {
+	font-family: 'novecento', sans-serif;
+	font-size: 20px;
+	margin: 20px 0;
+}
+
+.search-button {
+	display: flex;
+    justify-content: center;
+	padding: 10px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: black;
+    width: 175px;
+    font-family: 'novecento', sans-serif;
+	&:hover {
+		background-color: $color_green_brand;
+		color: white;
+		border: 1px solid $color_green_brand;
+		a{
+			color: white;
+		}
+	}
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
 }
