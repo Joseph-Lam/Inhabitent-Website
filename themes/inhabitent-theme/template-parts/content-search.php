@@ -22,8 +22,4 @@
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
-	<div class="search-button">
-		<a class="search-button-text" href="<?php the_permalink(); ?>">read more →</a>
-	</div>
-
 </article><!-- #post-## -->

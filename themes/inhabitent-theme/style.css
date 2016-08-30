@@ -814,7 +814,7 @@ object {
   -ms-flex-direction: column;
       flex-direction: column;
   font-family: 'merriweatherlight', sans-serif;
-  width: 600px;
+  width: 840px;
   padding: 25px; }
 
 .site-content {
@@ -834,6 +834,8 @@ object {
 .entry-header {
   font-family: 'Novecento', sans-serif;
   position: relative; }
+  .entry-header img {
+    width: 100%; }
 
 .entry-title {
   background-color: #248A83;
@@ -1248,12 +1250,16 @@ object {
   .search-button:hover {
     background-color: #248A83;
     color: white;
-    border: 1px solid #248A83; }
+    border: 1px solid #248A83;
+    cursor: pointer; }
     .search-button:hover a {
       color: white; }
   .search-button a {
     color: black;
     text-decoration: none; }
+
+.search-summary {
+  line-height: 2; }
 
 .single-product-title {
   color: #d99054;

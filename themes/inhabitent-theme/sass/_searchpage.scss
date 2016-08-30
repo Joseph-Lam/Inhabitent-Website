@@ -46,6 +46,7 @@
 		background-color: $color_green_brand;
 		color: white;
 		border: 1px solid $color_green_brand;
+		cursor: pointer;
 		a{
 			color: white;
 		}
@@ -55,4 +56,8 @@
 		text-decoration: none;
 	}
 
+}
+
+.search-summary {
+	line-height: 2;
 }

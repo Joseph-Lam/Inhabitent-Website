@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
 	font-family: 'merriweatherlight', sans-serif;
-    width: 600px;
+    width: 840px;
     padding: 25px;
 }
 
@@ -24,6 +24,9 @@
 .entry-header {
 	font-family: 'Novecento', sans-serif;
 	position: relative;
+	img {
+		width: 100%;
+	}
 }
 
 .entry-title {
