@@ -7,7 +7,7 @@
  */
 
 get_header(); ?>
-
+</div>
 <article>
 
 	<div class="about-hero">
