@@ -35,7 +35,7 @@
 				<p><span class="bold-hours">Sunday: </span>Closed</p>
 			</div>
 			<div class="footer-logo">
-				<a href="localhost:3000/inhabitent"><img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-text.svg' ?>"></a>
+				<a href="localhost:3000/inhabitent"><img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-text.svg' ?>" alt="footer-logo"></a>
 				
 			</div>
 		</div>

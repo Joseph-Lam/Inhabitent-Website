@@ -10,7 +10,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 		<section class="hero-image">
-			<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg'?>">
+			<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-full.svg'?>" alt="hero-image">
 		</section>
 
 		
@@ -109,8 +109,6 @@ get_header(); ?>
 						</div>
 				</div>
 			</div>
-
-		</section>
 
 		</section>
 

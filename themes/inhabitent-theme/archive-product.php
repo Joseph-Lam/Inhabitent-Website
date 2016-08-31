@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-
+</div>
 <div id="primary" class="content-area">
 	
 	<h2 class="front-titles">Shop Stuff</h2>
@@ -24,7 +24,7 @@ get_header(); ?>
 		<?php endforeach;?>
 		</div>
 
-	<main id="main" class="site-main" role="main">
+	<main id="main" class="archive-main" role="main">
 
 		<div class="shop-archive-product">
 

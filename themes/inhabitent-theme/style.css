@@ -42,6 +42,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 # Page Templates
 	## Front page
+# "footer"
+# "journal"
+# "frontpage"
+# "findus"
+# "archive-product"
+# "about"
+# "searchpage"
+# "single-product"
+# "404-error"
+# "comments"
 --------------------------------------------------------------*/
 html {
   font-family: sans-serif;
@@ -1113,6 +1123,12 @@ object {
 .entry-content h2 {
   font-family: 'novecento', sans-serif; }
 
+.archive-main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
 .product .shop-grid-item {
   display: -ms-flexbox;
   display: flex;
@@ -1134,6 +1150,8 @@ object {
     margin: 0 30px;
     font-size: 30px;
     color: #248A83; }
+    .shop-header-links a:hover {
+      color: black; }
 
 .shop-archive-product {
   display: -ms-flexbox;
@@ -1195,6 +1213,7 @@ object {
   padding-left: 4px; }
 
 .category-header p {
+  font-family: 'merriweather', sans-serif;
   text-align: center; }
 
 .category-archive-product {
@@ -1204,7 +1223,6 @@ object {
       flex-wrap: wrap;
   -ms-flex-direction: row-reverse;
       flex-direction: row-reverse;
-  width: 1000px;
   padding: 100px 0;
   border-top: 1px dashed #c8c8c8; }
   .category-archive-product .product {
