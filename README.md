@@ -14,4 +14,5 @@
   because a particular styling would target multiple pages on the site. But once I understood the different page connections, I changed the php
   files accordingly to make the styling targeting clear. I feel much better and confident in my CSS/SASS skills after working through this project.
   A very great and rewarding first experience with WordPress!  
-
+<br>
+There are still stretch goals that I can add to the site in the future such as create links to pages for the adventures section.
