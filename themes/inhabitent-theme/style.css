@@ -1216,6 +1216,12 @@ object {
   font-family: 'merriweather', sans-serif;
   text-align: center; }
 
+.category-main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
 .category-archive-product {
   display: -ms-flexbox;
   display: flex;
@@ -1225,11 +1231,9 @@ object {
       flex-direction: row-reverse;
   padding: 100px 0;
   border-top: 1px dashed #c8c8c8; }
-  .category-archive-product .product {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex: 1 0 25%;
-        flex: 1 0 25%; }
+
+.about-hero {
+  margin-top: 5px; }
 
 .about-header {
   text-transform: uppercase;

@@ -101,15 +101,17 @@
 	}
 }
 
+.category-main {
+	display: flex;
+	justify-content: center;
+}
+
 .category-archive-product {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row-reverse;
 	padding: 100px 0;
     border-top: 1px dashed $color_dashed_border;
-	.product {
-		display: flex;
-		flex: 1 0 25%;
-	}
+	
 }
 

@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-
+</div>
 <div id="primary" class="content-area">
 		
 	<header class="category-header">
@@ -18,7 +18,7 @@ get_header(); ?>
         ?> </p>
     </header>
 
-	<main id="main" class="site-main" role="main">
+	<main id="main" class="category-main" role="main">
 
 		<div class="category-archive-product">
 
