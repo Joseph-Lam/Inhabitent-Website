@@ -1,0 +1,106 @@
+.comments-title {
+	font-size: 42px;
+    font-family: 'novecento', sans-serif;
+    margin-top: 48px;
+}
+
+.comment-list {
+	margin: 0;
+	padding: 0;
+	font-family: 'merriweather', sans-serif;
+}
+
+.comment-body {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.comment-author-avatar {
+	display: flex;
+	img {
+		border-radius: 50%;
+		margin-right: 20px;
+		height: 100%;
+	}
+}
+
+.comment-content {
+	width: 100%;
+	border-bottom: 1px solid $color_solid_border;
+	padding-bottom: 40px;
+}
+
+.comment-author {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.comment-metadata {
+	color: gray;
+	a {
+		color: $color_green_brand;
+	}
+}
+
+.reply {
+	a {
+		color: green;
+		text-decoration: none;
+	}
+}
+
+.comment-reply-title {
+	font-family: 'novecento', sans-serif;
+	font-size: 35px;
+	margin-bottom: 0;
+}
+
+.comment-form {
+	font-family: 'merriweather', sans-serif;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.comment-form-comment {
+	font-family: 'novecento', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 100%;
+	textarea {
+		background-color: $color_form_background;
+		border: 1px solid $color_solid_border;
+	}
+}
+
+.comment-form-author {
+	flex: 0 1 52%;
+	font-family: 'novecento', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	input {
+		width: 95%;
+		background-color: $color_form_background;
+	}
+}
+
+.comment-form-email {
+	flex: 0 1 48%;
+	font-family: 'novecento', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	input {
+		width: 100%;
+		background-color: $color_form_background;
+	}
+}
+
+.comment-form-url {
+	flex: 0 1 100%;
+	font-family: 'novecento', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	input {
+		width: 100%;
+		background-color: $color_form_background;
+	}
+}

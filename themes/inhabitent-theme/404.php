@@ -20,7 +20,7 @@ get_header(); ?>
 			<div class="error-page-content">
 				<p><?php echo esc_html( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?' ); ?></p>
 
-				<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+				<form role="search" method="get" class="error-search-form" action="<?php echo home_url( '/' ); ?>">
 					<fieldset>
 						<label>
 							<input type="search" class="error-search-field" placeholder="Type and press enter..." value="<?php echo esc_attr( get_search_query() ); ?>" name="s" title="Search for:" />

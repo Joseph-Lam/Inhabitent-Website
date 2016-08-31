@@ -1363,8 +1363,9 @@ object {
   .error-header .page-title {
     margin-bottom: 0; }
 
-.search-form fieldset {
-  padding: 0; }
+.error-search-form fieldset {
+  padding: 0;
+  border: none; }
 
 .error-search-field {
   font-family: 'merriweather', sans-serif;
@@ -1402,3 +1403,95 @@ object {
 
 .widget_archive select {
   font-family: 'merriweather', sans-serif; }
+
+.comments-title {
+  font-size: 42px;
+  font-family: 'novecento', sans-serif;
+  margin-top: 48px; }
+
+.comment-list {
+  margin: 0;
+  padding: 0;
+  font-family: 'merriweather', sans-serif; }
+
+.comment-body {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px; }
+
+.comment-author-avatar {
+  display: -ms-flexbox;
+  display: flex; }
+  .comment-author-avatar img {
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 100%; }
+
+.comment-content {
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 40px; }
+
+.comment-author {
+  font-weight: 700;
+  font-size: 20px; }
+
+.comment-metadata {
+  color: gray; }
+  .comment-metadata a {
+    color: #248A83; }
+
+.reply a {
+  color: green;
+  text-decoration: none; }
+
+.comment-reply-title {
+  font-family: 'novecento', sans-serif;
+  font-size: 35px;
+  margin-bottom: 0; }
+
+.comment-form {
+  font-family: 'merriweather', sans-serif;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+
+.comment-form-comment {
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 100%; }
+  .comment-form-comment textarea {
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1; }
+
+.comment-form-author {
+  -ms-flex: 0 1 52%;
+      flex: 0 1 52%;
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px; }
+  .comment-form-author input {
+    width: 95%;
+    background-color: #f4f4f4; }
+
+.comment-form-email {
+  -ms-flex: 0 1 48%;
+      flex: 0 1 48%;
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px; }
+  .comment-form-email input {
+    width: 100%;
+    background-color: #f4f4f4; }
+
+.comment-form-url {
+  -ms-flex: 0 1 100%;
+      flex: 0 1 100%;
+  font-family: 'novecento', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px; }
+  .comment-form-url input {
+    width: 100%;
+    background-color: #f4f4f4; }
