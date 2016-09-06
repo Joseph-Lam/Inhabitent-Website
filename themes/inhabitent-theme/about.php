@@ -15,7 +15,6 @@ get_header(); ?>
 	</div>
 	
 	<div class="about-content">
-		<?php the_content(); ?>
 		<div class="about-text">
 			<?php echo CFS()->get( 'our_story' ); ?>
 			<?php echo CFS()->get( 'our_team' ); ?>

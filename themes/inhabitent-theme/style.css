@@ -1234,7 +1234,7 @@ object {
   border-top: 1px dashed #c8c8c8; }
 
 .about-hero {
-  margin-top: 5px; }
+  margin: 0; }
 
 .about-header {
   text-transform: uppercase;
