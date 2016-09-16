@@ -1,3 +1,5 @@
+![Inhabitent Screenshot](./themes/inhabitent-theme/images/inhabitent_full_site_screenshot.png "Inhabitent")
+
 # Inhabitent Camping Supply Co.
 
 ##Technologies used:
