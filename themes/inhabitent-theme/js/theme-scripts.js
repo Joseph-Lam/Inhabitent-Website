@@ -22,25 +22,7 @@ $('body').on('click', function(event) {
           searchBar.hide('slow');
       }    
   }); 
-
-
-//   var $imgHeight = $(".hero-image").height(),
-//       $windowHeight = $(window).height();
-  
-//   $(window).on("scroll", function() {
-//       var $fromTop = $(window).scrollTop();
-//       if ($fromTop > $imgHeight) {
-//         console.log('I am past the hero image! ' + $imgHeight + ' is the image height ' + $windowHeight + ' is the window height.');
-//         $('.site-header').addClass('new-header');
-//       } else {
-
-//         $('.site-header').removeClass('new-header');
-//       }
-//   });
-// }); 
-
-  
-
+ 
 
 }(jQuery));
 

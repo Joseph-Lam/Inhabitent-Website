@@ -513,7 +513,8 @@ a {
   display: none;
   text-transform: uppercase;
   outline: none;
-  border: none; }
+  border: none;
+  padding: 0; }
 
 .search-submit {
   margin-top: 10px;
